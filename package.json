@@ -1,0 +1,30 @@
+{
+    "name": "gulpfile_generator",
+    "version": "1.1.0",
+    "description": "This is a genarator for gulpfile and package.json",
+    "author": "steelydylan",
+    "url": "http://horicdesign.com",
+    "license": "MIT License",
+    "keywords": "gulp",
+    "devDependencies":{
+        "bootstrap-sass": "3.3.7",
+        "gulp": "*",
+        "gulp-plumber": "*",
+        "gulp-rename": "*",
+        "gulp-sourcemaps": "*",
+        "gulp-sass": "*",
+        "gulp-autoprefixer": "*",
+        "es6-promise": "*",
+        "gulp-csscomb": "*",
+        "gulp-merge-media-queries": "*",
+        "gulp-clean-css": "*",
+        "gulp-uglify": "*",
+        "gulp-concat": "*",
+        "gulp-jade": "*",
+        "gulp-minify-html": "*",
+        "gulp-imagemin": "*",
+        "gulp-cache": "*"
+    }
+}
+
+

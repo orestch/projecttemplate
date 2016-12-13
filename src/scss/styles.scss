@@ -1,0 +1,46 @@
+//
+// STYLESHEET
+// --------------------------------------------------
+
+
+//== Specific page styles
+
+@import "bootstrap";
+@import "common";
+@import 'vars';
+@import 'fonts';
+@import 'responsive';
+@import 'crossbrowser';
+
+// BODY 
+body {
+	font-family: $font-stack-primary;	
+}
+
+// PARAGRAPHS
+p {
+	font-family: $font-stack-secondary;
+}
+
+// LINKS
+a, a:hover {
+	text-decoration: none !important;
+	color: $orange !important;
+}
+
+// PAGE HEADER
+.page-header {
+
+}
+
+// NAVBAR MAIN 
+.navbar {
+		// LOGO 
+		
+		// MENU
+}		
+
+// PAGE FOOTER 
+.page-footer {
+
+}

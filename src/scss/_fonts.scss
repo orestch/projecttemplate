@@ -1,0 +1,37 @@
+//
+// VARIABLES
+// --------------------------------------------------
+
+
+//== Fonts
+
+$font-primary: '';
+$font-secondary: '';
+$font-primary-filename: '';
+$font-secondary-filename: '';
+$font-stack-primary: $font-primary, Arial, sans-serif;
+$font-stack-secondary: $font-secondary + Arial, sans-serif;
+
+@font-face {
+  font-family: $font-primary;
+  src: url('../fonts/' + $font-primary-filename + '.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/' + $font-primary-filename + '.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/' + $font-primary-filename + '.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/' + $font-primary-filename + '.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/' + $font-primary-filename + '.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/' + $font-primary-filename + '.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-variant: normal;
+}
+
+@font-face {
+  font-family: $font-secondary;
+  src: url('../fonts/' + $font-secondary-filename + '.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/' + $font-secondary-filename + '.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/' + $font-secondary-filename + '.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/' + $font-secondary-filename + '.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/' + $font-secondary-filename + '.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/' + $font-secondary-filename + '.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: 500;
+	font-variant: normal;
+}
