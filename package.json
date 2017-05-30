@@ -20,7 +20,7 @@
         "gulp-clean-css": "*",
         "gulp-uglify": "*",
         "gulp-concat": "*",
-        "gulp-jade": "*",
+        "gulp-pug": "*",
         "gulp-minify-html": "*",
         "gulp-imagemin": "*",
         "gulp-cache": "*"
